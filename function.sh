@@ -16,5 +16,5 @@ then
     exit 1
 fi
 
-yum install git -y
+yum install mysql -y
 validate $? "installing of git"
